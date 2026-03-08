@@ -1,4 +1,6 @@
-﻿# NAME	chrome-profmgr - Profile Manager for Google Chrome
+﻿# chrome-profmgr
+
+Profile Manager for Google Chrome
 
 # DESCRIPTION
 
