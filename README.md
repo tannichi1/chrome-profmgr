@@ -1,10 +1,6 @@
 ﻿# chrome-profmgr
 
-Google Chrome 用プロファイルマネージャー
-
-## 説明
-
-Google Chrome 用のプロファイルマネージャーです。
+&nbsp;&nbsp;&nbsp;&nbsp;Google Chrome 用のプロファイルマネージャーです。
 
 <div align="center">
   <img width="70%" alt="実行例" src="./docs/assets/profmgr_jp.png" />
@@ -50,3 +46,4 @@ Google Chrome 用のプロファイルマネージャーです。
 &nbsp;&nbsp;&nbsp;&nbsp;VbScript は COM オブジェクトは使えますが、.NET オブジェクトは扱えません。一方、PowerScript は .NET と COM オブジェクトの両方を使えます。
 
 &nbsp;&nbsp;&nbsp;&nbsp;しかし、VbScript 自体も廃止の予定があるとか。プロファイルマネージャー自体の機能として、ショートカットの作成に VbScript を内部的に使用しているので、VbScript が廃止されるとこのプログラム自体も動作不能になります。
+
