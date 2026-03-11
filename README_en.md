@@ -22,6 +22,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;This script is general-purpose, and if you drag and drop any `.ps1` file(s) onto a `.vbs` file, a corresponding shortcut will be created.
 
+&nbsp;&nbsp;&nbsp;&nbsp;If the following error message appears when you run a `.vbs` file, open the properties of the `.vbs` file and check "Allow" in the Security section of the "General" tab.
+
+<div align="center">
+  <img width="70%" alt="Execute error" src="./docs/assets/vbs-error_ja.png" />
+</div>
+
+<div align="center">
+  <img width="70%" alt="vbs property" src="./docs/assets/vbs-prop_ja.png" />
+</div>
 
 # BUG
 
@@ -36,6 +45,7 @@
 
 - Translation is appropriate
   - Let's just say that Google Translate is bad.
+
 
 
 
