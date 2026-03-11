@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;It does support multiple languages, but it is a proprietary specification.
 
 # INSTRATION
-&nbsp;&nbsp;&nbsp;&nbsp;[chrome-profmgr_20260311-1.zip](https://github.com/tannichi1/chrome-profmgr/releases/download/v1.0.0/chrome-profmgr_20260311-1.zip)
+&nbsp;&nbsp;&nbsp;&nbsp;[chrome-profmgr_20260311-2.zip](https://github.com/tannichi1/chrome-profmgr/releases/download/v1.0.0/chrome-profmgr_20260311-2.zip)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Create a suitable folder on your **local disk** and extract the contents of the zip file into it.
 
@@ -45,6 +45,7 @@
 
 - Translation is appropriate
   - Let's just say that Google Translate is bad.
+
 
 
 
