@@ -1,9 +1,5 @@
 ﻿# chrome-profmgr
 
-&nbsp;&nbsp;&nbsp;&nbsp;Profile Manager for Google Chrome
-
-# DESCRIPTION
-
 &nbsp;&nbsp;&nbsp;&nbsp;A profile manager for Google Chrome.
 
 <div align="center">
@@ -40,5 +36,6 @@
 
 - Translation is appropriate
   - Let's just say that Google Translate is bad.
+
 
 
