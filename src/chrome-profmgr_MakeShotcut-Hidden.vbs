@@ -63,7 +63,7 @@ sLinkOpt = "-ExecutionPolicy ByPass"
 sTargetPath = "powershell"
 For Each sOpt in aVbsOpt
 	Select Case LCase(sOpt)
-	  Case "MakeShotcut"
+	  Case "makeshotcut"
 	  	' オプションが何もない場合
 	  Case "hide", "hidden"
 		sLinkOpt = sLinkOpt & " -WindowStyle Hidden"
