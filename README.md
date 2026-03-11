@@ -13,7 +13,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;一応、多言語化に対応しています。ただし独自仕様です。
 
 ## インストール
-&nbsp;&nbsp;&nbsp;&nbsp;[chrome-profmgr_20260311-2.zip](https://github.com/tannichi1/chrome-profmgr/releases/download/v1.0.0/chrome-profmgr_20260311-2.zip)
+&nbsp;&nbsp;&nbsp;&nbsp;[chrome-profmgr_20260311-3.zip](https://github.com/tannichi1/chrome-profmgr/releases/download/v1.0.0/chrome-profmgr_20260311-3.zip)
 
 &nbsp;&nbsp;&nbsp;&nbsp;**ローカルディスク**上に適当なフォルダを作成して zip ファイルの中身を展開してください。
 
@@ -55,6 +55,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;VbScript は COM オブジェクトは使えますが、.NET オブジェクトは扱えません。一方、PowerScript は .NET と COM オブジェクトの両方を使えます。
 
 &nbsp;&nbsp;&nbsp;&nbsp;しかし、VbScript 自体も廃止の予定があるとか。プロファイルマネージャー自体の機能として、ショートカットの作成に VbScript を内部的に使用しているので、VbScript が廃止されるとこのプログラム自体も動作不能になります。
+
 
 
 
