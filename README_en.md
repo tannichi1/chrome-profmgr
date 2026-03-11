@@ -24,14 +24,15 @@
 
 # BUG
 
-## It appears to freeze when downloaded.
-&nbsp;&nbsp;&nbsp;&nbsp;The profile download (zip file creation) process takes a long time, but no progress bar appears and the mouse pointer does not change to an hourglass, so it appears frozen.
+- It appears to freeze when downloaded.
+  - The profile download (zip file creation) process takes a long time, but no progress bar appears and the mouse pointer does not change to an hourglass, so it appears frozen.
 
-## Icons are displayed in 16 colors
-&nbsp;&nbsp;&nbsp;&nbsp;If you are logged in to Google with a profile, you can obtain the icon image (PNG format), but you cannot convert it to an ICO image.
+- Icons are displayed in 16 colors
+  - If you are logged in to Google with a profile, you can obtain the icon image (PNG format), but you cannot convert it to an ICO image.
 
-&nbsp;&nbsp;&nbsp;&nbsp;If you set the hidden parameter `config.link_with_icon=true`, an icon will be set when you create a shortcut, but the number of colors will be reduced to 16.
+  - If you set the hidden parameter `config.link_with_icon=true`, an icon will be set when you create a shortcut, but the number of colors will be reduced to 16.
 
 
-## Translation is appropriate
-&nbsp;&nbsp;&nbsp;&nbsp;Let's just say that Google Translate is bad.
+- Translation is appropriate
+  - Let's just say that Google Translate is bad.
+
