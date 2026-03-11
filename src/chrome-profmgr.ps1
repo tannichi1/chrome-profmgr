@@ -525,7 +525,11 @@ $profListBox.Add_SelectedIndexChanged({
 				"$profObjDir\Google Profile Picture.png")){
 			if(Test-Path $imagePath){
 				$profObj.icon = $imagePath
-				$iconImage.Image = [System.Drawing.Image]::FromFile($imagePath)
+				#NG $iconImage.Image = [System.Drawing.Image]::FromFile($imagePath)
+				# ファイルがロックされて、リネームや削除ができなくなる
+				#see https://stackoverflow.com/questions/788335/why-does-image-fromfile-keep-a-file-handle-open-sometimes
+				$iconImage.Image = [System.Drawing.Image]::FromStream(
+					[System.IO.MemoryStream]::new([System.IO.File]::ReadAllBytes($imagePath)))
 				break imgFind
 			}
 		}
