@@ -16,6 +16,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;It does support multiple languages, but it is a proprietary specification.
 
 # INSTRATION
+&nbsp;&nbsp;&nbsp;&nbsp;[chrome-profmgr_20260311-1.zip](https://github.com/tannichi1/chrome-profmgr/releases/download/v1.0.0/chrome-profmgr_20260311-1.zip)
+
+&nbsp;&nbsp;&nbsp;&nbsp;Create a suitable folder on your **local disk** and extract the contents of the zip file into it.
+
 &nbsp;&nbsp;&nbsp;&nbsp;To start the program, simply run the included `.ps1` file, but by default, `.ps1` files do not start when double-clicked, which can be a hassle, so I created a script to create a shortcut for starting the program.
 
 &nbsp;&nbsp;&nbsp;&nbsp;There are versions available for a windowed version (`xxx_MakeShotcut.vbs`), a windowless version (`xxx_MakeShotcut-Hidden.vbs`), and a windowless version running with PowerShell 7 (`xx_MakeShotcut-Hidden-v7.vbs`). Running any of these will create a shortcut on your desktop.
@@ -36,4 +40,5 @@
 
 - Translation is appropriate
   - Let's just say that Google Translate is bad.
+
 
