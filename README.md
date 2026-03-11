@@ -6,7 +6,9 @@ Google Chrome 用プロファイルマネージャー
 
 Google Chrome 用のプロファイルマネージャーです。
 
-<img width="972" height="746" alt="Image" src="https://github.com/user-attachments/assets/738353c0-ca5c-4f8f-a064-04b8445ab2d3" />
+<div align="center">
+  <img width="70%" alt="実行例" src="https://github.com/user-attachments/assets/738353c0-ca5c-4f8f-a064-04b8445ab2d3" />
+</div>
 
 要するに Firefox における `firefox -P` のようなものが欲しいと思って作りました。
 
@@ -44,6 +46,7 @@ VbScript 版が使えなくなった理由を簡単に言うと、画面操作(U
 PowerScript は .NET と COM オブジェクトの両方を使えます。VbScript は COM オブジェクトは使えますが、.NET オブジェクトは扱えません。
 
 しかし、VbScript 自体も廃止の予定があるとか。プロファイルマネージャー自体の機能として、ショートカットの作成に VbScript を内部使用しているので、VbScript が廃止されるとこのプログラム自体も動作不能になります。
+
 
 
 
