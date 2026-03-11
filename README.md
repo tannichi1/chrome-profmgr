@@ -25,10 +25,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;もし、 `.vbs` ファイルの実行時に以下のエラーメッセージが出るようであれば、 `.vbs` ファイルのプロパティーを開いて、タブ「全般」の項目セキュリティーを「■許可する」にチェックを入れてください。
 
 <div align="center">
-  <img width="70%" alt="エラー" src="./docs/assets/vbs-error_ja.png" />
+  <img width="70%" alt="VBS実行エラー" src="./docs/assets/vbs-error_ja.png" />
 </div>
+
 <div align="center">
-  <img width="70%" alt="プロパティー" src="./docs/assets/vbs-prop_ja.png" />
+  <img width="70%" alt="VBSプロパティー" src="./docs/assets/vbs-prop_ja.png" />
 </div>
 
 ## バグ
@@ -54,6 +55,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;VbScript は COM オブジェクトは使えますが、.NET オブジェクトは扱えません。一方、PowerScript は .NET と COM オブジェクトの両方を使えます。
 
 &nbsp;&nbsp;&nbsp;&nbsp;しかし、VbScript 自体も廃止の予定があるとか。プロファイルマネージャー自体の機能として、ショートカットの作成に VbScript を内部的に使用しているので、VbScript が廃止されるとこのプログラム自体も動作不能になります。
+
 
 
 
