@@ -7,9 +7,6 @@ Google Chrome 用プロファイルマネージャー
 Google Chrome 用のプロファイルマネージャーです。
 
 <div align="center">
-  <img width="70%" alt="実行例" src="https://github.com/user-attachments/assets/738353c0-ca5c-4f8f-a064-04b8445ab2d3" />
-</div>
-<div align="center">
   <img width="70%" alt="実行例" src="./docs/assets/profmgr_jp.png" />
 </div>
 

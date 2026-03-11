@@ -7,8 +7,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;A profile manager for Google Chrome.
 
 <div align="center">
-  <img width="70%" alt="Example" src="https://github.com/user-attachments/assets/9d5289d5-8ec8-4809-9977-fdc76302abad" />
+  <img width="70%" alt="Execution screen" src="./docs/assets/profmgr_en.png" />
 </div>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;In short, I created it because I wanted something similar to `firefox -P` for Firefox.
 
