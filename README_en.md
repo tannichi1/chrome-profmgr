@@ -6,7 +6,9 @@ Profile Manager for Google Chrome
 
 A profile manager for Google Chrome.
 
-<img width="972" height="746" alt="Image" src="https://github.com/user-attachments/assets/9d5289d5-8ec8-4809-9977-fdc76302abad" />
+<div align="center">
+  <img width="70%" alt="Example" src="https://github.com/user-attachments/assets/9d5289d5-8ec8-4809-9977-fdc76302abad" />
+</div>
 
 In short, I created it because I wanted something similar to `firefox -P` for Firefox.
 
@@ -33,6 +35,7 @@ If you set the hidden parameter `config.link_with_icon=true`, an icon will be se
 
 ## Translation is appropriate
 Let's just say that Google Translate is bad.
+
 
 
 
