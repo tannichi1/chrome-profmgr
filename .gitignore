@@ -1,2 +1,6 @@
-E .gitignore
+# .gitignore
 dist
+
+# doc-org
+docs/assets/*-org.png
+
