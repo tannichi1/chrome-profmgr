@@ -1,6 +1,11 @@
 # .gitignore
 dist
 
+# src
+*.bak
+*.BAK
+
+
 # doc-org
 docs/assets/*-org.png
 

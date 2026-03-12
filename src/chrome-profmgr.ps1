@@ -554,7 +554,7 @@ $createBtn.Add_Click({
 	#		"`n`n　　作成すると実際に起動し、テーマの設定ページを開きます",
 	#	"新規プロファイル名の入力")
 	$profName = [Microsoft.VisualBasic.Interaction]::InputBox(
-		(msg createAnnounceText_NewNameInput).
+		(msg createAnnounceText_NewNameInput),
 		(msg createAnnounceTitle_NewNameInput))
 	Write-Host "profName=$profName"
 	if([string]::IsNullOrWhiteSpace($profName)){
