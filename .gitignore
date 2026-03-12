@@ -4,7 +4,7 @@ dist
 # src
 *.bak
 *.BAK
-
+*ÉRÉsÅ[*
 
 # doc-org
 docs/assets/*-org.png
