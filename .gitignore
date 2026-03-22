@@ -1,4 +1,9 @@
 # .gitignore
+
+# VSCode
+chrome-profmgr.code-workspace
+
+# release
 dist
 
 # src
