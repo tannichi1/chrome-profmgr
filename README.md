@@ -13,7 +13,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;一応、多言語化に対応しています。ただし独自仕様です。
 
 ## インストール
-&nbsp;&nbsp;&nbsp;&nbsp;[chrome-profmgr_20260312-2.zip](https://github.com/tannichi1/chrome-profmgr/releases/download/v1.0.0/chrome-profmgr_20260312-2.zip)
+&nbsp;&nbsp;&nbsp;&nbsp;リンク先から最新版の `chrome-preofmgr_999999-9.zip` ファイルをダウンロードしてください。[releases](https://github.com/tannichi1/chrome-profmgr/releases/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;**ローカルディスク**上に適当なフォルダを作成して zip ファイルの中身を展開してください。
 
