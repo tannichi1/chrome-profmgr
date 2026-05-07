@@ -1,6 +1,6 @@
 ﻿# chrome-profmgr
 
-&nbsp;&nbsp;&nbsp;&nbsp;Google Chrome 用のプロファイルマネージャーです。
+&nbsp;&nbsp;&nbsp;&nbsp;Google Chrome 用のプロファイル(UserData) マネージャーです。
 
 <div align="center">
   <img width="70%" alt="実行例" src="./docs/assets/profmgr_ja.png" />
@@ -13,24 +13,38 @@
 &nbsp;&nbsp;&nbsp;&nbsp;一応、多言語化に対応しています。ただし独自仕様です。
 
 ## インストール
-&nbsp;&nbsp;&nbsp;&nbsp;[chrome-profmgr_20260312-2.zip](https://github.com/tannichi1/chrome-profmgr/releases/download/v1.0.0/chrome-profmgr_20260312-2.zip)
+&nbsp;&nbsp;&nbsp;&nbsp;リンク先から最新版の `chrome-preofmgr_999999-9.zip` ファイルをダウンロードしてください。[releases](https://github.com/tannichi1/chrome-profmgr/releases/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;**ローカルディスク**上に適当なフォルダを作成して zip ファイルの中身を展開してください。
 
+
+> [!NOTE]  
+> &nbsp;&nbsp;&nbsp;&nbsp;zip ファイルの展開に外部ツールを使用すると後の面倒がなくなります。  
+> &nbsp;&nbsp;&nbsp;&nbsp;この例では、`C:\Apps\chrome-profmgr\` に展開したものとして説明します。
+
+&nbsp;&nbsp;&nbsp;&nbsp;展開したフォルダにある `pre-inst.bat` を実行します。  
+&nbsp;&nbsp;&nbsp;&nbsp;この時セキュリティ警告が出るようであれば、[実行(R)] をクリックしてください。警告を無視するのが嫌な場合は以下を実行します。  
+&nbsp;&nbsp;&nbsp;&nbsp;`Windowsキー + R` を推して、`cmd` を起動し、以下のように操作します。
+```
+C:\Users\tannichi1>cd C:\Apps\chrome-profmgr
+C:\Apps\chrome-profmgr>type pre-inst.bat > pre-inst.cmd
+C:\Apps\chrome-profmgr>.\pre-inst.cmd
+```
+
+<div align="center">
+  <img width="50%" alt="セキュリティ警告" src="./docs/assets/pre-inst_alert_ja.png" />
+</div>
+
+  
 &nbsp;&nbsp;&nbsp;&nbsp;プログラムの起動は単に付属の `.ps1` ファイルを実行すれば良いのですが、既定で `.ps1` ファイルはダブルクリックでは起動せず、起動が面倒なので起動用ショートカットを作成するスクリプトを作成しました。
 
-&nbsp;&nbsp;&nbsp;&nbsp;窓付き用(`xxx_MakeShotcut.vbs`)、窓無し用(`xxx_MakeShotcut-Hidden.vbs`)、窓無し＋PowerShell 7 で実行用(`xx_MakeShotcut-Hidden-v7.vbs`) がありますので、どれかを実行するとデスクトップにショートカットを作成します。
-このスクリプトは汎用に作られていて、任意の `.ps1` ファイル(複数可) を `.vbs` ファイルに Drag&Dtop すると対応するショートカットが作成されます。
+&nbsp;&nbsp;&nbsp;&nbsp;以下の内、どれか一つを実行してください。
+* `xxx_MakeShotcut.vbs` - 窓付き  
+* `xxx_MakeShotcut-Hidden.vbs` - 窓無し  
+* `xx_MakeShotcut-Hidden-v7.vbs` - 窓無し＋PowerShell 7 で実行  
 
-&nbsp;&nbsp;&nbsp;&nbsp;もし、 `.vbs` ファイルの実行時に以下のエラーメッセージが出るようであれば、 `.vbs` ファイルのプロパティーを開いて、タブ「全般」の項目セキュリティーを「■許可する」にチェックを入れてください。
+&nbsp;&nbsp;&nbsp;&nbsp;これらスクリプトは汎用に作られていて、任意の `.ps1` ファイル(複数可) を `.vbs` ファイルに Drag&Dtop すると対応するショートカットが作成されます。
 
-<div align="center">
-  <img width="70%" alt="VBS実行エラー" src="./docs/assets/vbs-error_ja.png" />
-</div>
-
-<div align="center">
-  <img width="70%" alt="VBSプロパティー" src="./docs/assets/vbs-prop_ja.png" />
-</div>
 
 ## バグ
 
